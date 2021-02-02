@@ -24,9 +24,9 @@ Follow the checklist and the brief Guidlines below
 maps,diagrams and idioms.
 - Start documenting all the process from start to finish.
 
-Domain: 
-Dataset:
-Design Ideas: (Use 5 Design Sheet Methodology)
+- Domain: 
+- Dataset:
+- Design Ideas: (Use 5 Design Sheet Methodology)
 
 # Brief Guideline on what to do
 1.  Create maps and diagrams based of the 5 design sheet on vegalite
