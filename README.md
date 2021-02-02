@@ -7,12 +7,12 @@ Use vega-lite visualisation library to create maps and diagrams.
 
 # Why the project is useful
 
-This project is usefult beacuse it enables you to demonstrate your visualisation 
+This project is useful because it enables you to demonstrate your visualisation 
 techniques in an innovative context.   
 
 # How users can get started with the project
 
-Follow the checklist and the brief Guidlines below 
+Follow the checklist and the brief Guidlines below. 
 
 
 # Checklist
@@ -38,4 +38,5 @@ maps,diagrams and idioms.
 7.  Create report documenting every process of this project
 
 
-# Author: Allan Rono
+# Author 
+- Allan Rono
