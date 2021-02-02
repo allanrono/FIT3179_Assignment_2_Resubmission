@@ -22,7 +22,7 @@ Follow the checklist and the brief Guidlines below
 - Does not necessarily have to be from the domain but has to be relevant.
 - Design how you would want to explain your narrative of the domain through 
 maps,diagrams and idioms.
-- 
+- Start documenting all the process from start to finish.
 
 Domain: 
 Dataset:
