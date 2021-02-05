@@ -24,9 +24,15 @@ Follow the checklist and the brief Guidlines below.
 maps,diagrams and idioms.
 - Start documenting all the process from start to finish.
 
-- Domain: 
-- Dataset:
+- Domain: Earthquake Analysis
+- Dataset: Earthquake Analysis
 - Design Ideas: (Use 5 Design Sheet Methodology)
+    -Earthquake overview
+    -Earthquake Overview by Continent
+    -Earthquake Frequencies according to Months
+    -Duration of Earthquakes using the recorded Hours and Seconds
+    -Changes that Have occured in Magnitude by Country
+    
 
 # Brief Guideline on what to do
 1.  Create maps and diagrams based of the 5 design sheet on vegalite
@@ -37,6 +43,8 @@ maps,diagrams and idioms.
 6.  Make webpage publicly viewable as a Github page
 7.  Create report documenting every process of this project
 
+# Link to Github Pages
+- https://allanrono.github.io/FIT3179_Assignment_2_Resubmission/
 
 # Author 
 - Allan Rono
