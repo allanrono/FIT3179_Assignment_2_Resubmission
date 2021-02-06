@@ -21,6 +21,8 @@
     <hr>
     <main>
         <h1 id="vis1"></h1>
+        <hr>
+        <h1 id="vis2"></h1>
     </main>
     <hr>
     <footer>
@@ -32,6 +34,10 @@
             vegaEmbed('#vis1', spec1).then(function (result) {
                 // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
+            var spec2 = "https://allanrono.github.io/FIT3179_Assignment_2_Resubmission/visualization2_map.vl.json";
+            vegaEmbed('#vis2', spec1).then(function (result) {
+                    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);            
     </script>
 
 
