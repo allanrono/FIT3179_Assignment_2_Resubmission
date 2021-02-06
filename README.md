@@ -20,18 +20,13 @@ Follow the checklist and the brief Guidlines below.
 - Find a domain that is useful or interesting to people.
 - Find Datasets that are relevant to your domain. 
 - Does not necessarily have to be from the domain but has to be relevant.
-- Design how you would want to explain your narrative of the domain through 
-maps,diagrams and idioms.
+- Design how you would want to explain your narrative of the domain through maps,diagrams and idioms.
 - Start documenting all the process from start to finish.
 
-- Domain: Earthquake Analysis
-- Dataset: Earthquake Analysis
+- Domain: Human Development in Europe
+- Dataset: Human Development (source Kaggle)
 - Design Ideas: (Use 5 Design Sheet Methodology)
-    -Earthquake overview
-    -Earthquake Overview by Continent
-    -Earthquake Frequencies according to Months
-    -Duration of Earthquakes using the recorded Hours and Seconds
-    -Changes that Have occured in Magnitude by Country
+    -Human Life expectancy in europe(Variation of eastern europe compared to western europe)
     
 
 # Brief Guideline on what to do
@@ -48,3 +43,6 @@ maps,diagrams and idioms.
 
 # Author 
 - Allan Rono
+
+
+
