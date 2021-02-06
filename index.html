@@ -16,15 +16,19 @@
 </head>
 <body>
     <header>
-        <h1>Earthquake Analysis</h1>
+        <h1>Human Development In Europe </h1>
     </header>
     <hr>
     <main>
+        <h1>Life Expectancy</h1>
         <h1 id="vis1"></h1>
         <hr>
+        <h1>GNI per Capita vs HDI rank</h1>
         <h1 id="vis2"></h1>
-        <hr>
         <h1 id="vis3"></h1>
+        <hr>
+        <h1>Mean years of schooling </h1>
+        <h1 id="vis4"></h1>
 
     </main>
     <hr>
@@ -44,7 +48,11 @@
             var spec3 = "https://allanrono.github.io/FIT3179_Assignment_2_Resubmission/visualization3_bubble.vl.json";
             vegaEmbed('#vis3', spec3).then(function (result) {
                     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);           
+            }).catch(console.error); 
+            var spec4 = "https://allanrono.github.io/FIT3179_Assignment_2_Resubmission/visualization4_bar.vl.json";
+            vegaEmbed('#vis4', spec4).then(function (result) {
+                    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);                       
     </script>
 
 
