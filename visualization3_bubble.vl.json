@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 700,
+  "height": 500,
+  "title": "Gross national income per capita vs GNI per capita minus HDI rank",
+  "data": {
+    "url": "https://raw.githubusercontent.com/allanrono/FIT3179_Assignment_2_Resubmission/main/HDI.csv"
+  },
+  "selection": {
+    "view": {"type": "interval", "bind": "scales"},
+    "brush": {"type": "interval", "init": {"x": [-19, 0], "y": [15000, 78000]}}
+  },
+  "mark": "circle",
+  "encoding": {
+    "y": {
+      "field": "Gross national income (GNI) per capita",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"minExtent": 30}
+    },
+    "x": {
+      "field": "GNI per capita rank minus HDI rank",
+      "scale": {"type": "sequential"}
+    },
+    "size": {
+      "field": "Gross national income (GNI) per capita",
+      "type": "quantitative"
+    },
+    "color": {"value": "#109302"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {
+        "field": "Gross national income (GNI) per capita",
+        "type": "quantitative"
+      },
+      {"field": "GNI per capita rank minus HDI rank", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}
