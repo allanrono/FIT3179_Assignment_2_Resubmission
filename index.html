@@ -20,6 +20,9 @@
     </header>
     <hr>
     <main>
+        <h1>HDI Ranking from 2010-2015</h1>
+        <h1 id="vis5"></h1>
+        <hr>
         <h1>Life Expectancy</h1>
         <h1 id="vis1"></h1>
         <hr>
@@ -52,7 +55,11 @@
             var spec4 = "https://allanrono.github.io/FIT3179_Assignment_2_Resubmission/visualization4_bar.vl.json";
             vegaEmbed('#vis4', spec4).then(function (result) {
                     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);                       
+            }).catch(console.error);
+            var spec5 = "https://allanrono.github.io/FIT3179_Assignment_2_Resubmission/visualization5_area.vl.json";
+            vegaEmbed('#vis5', spec5).then(function (result) {
+                    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);                                    
     </script>
 
 

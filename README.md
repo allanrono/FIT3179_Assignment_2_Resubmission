@@ -26,8 +26,6 @@ Follow the checklist and the brief Guidlines below.
 - Domain: Human Development in Europe
 - Dataset: Human Development (source Kaggle)
 - Design Ideas: (Use 5 Design Sheet Methodology)
-    -Human Life expectancy in europe(Variation of eastern europe compared to western europe)
-    
 
 # Brief Guideline on what to do
 1.  Create maps and diagrams based of the 5 design sheet on vegalite
@@ -43,6 +41,8 @@ Follow the checklist and the brief Guidlines below.
 
 # Author 
 - Allan Rono
+- Dataset author: https://www.kaggle.com/sudhirnl7/human-development-index-hdi
+- Author Kaggle: Sudhir Kumar
 
 
 
