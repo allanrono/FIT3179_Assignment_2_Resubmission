@@ -48,6 +48,7 @@ Follow the checklist and the brief Guidlines below.
     -https://medium.com/4thought-studios/human-development-index-the-new-gdp-34ce23fc8bd1#:~:text=These%20three%20indexes%20together%20are%20calculated%20into%20the%20Human%20Development%20Index.&text=Compared%20to%20GDP%2C%20the%20HDI,greater%20emphasis%20on%20human%20development.&text=GNI%20per%20capita%2C%20which%20is,but%20just%20one%20of%20several.
     -https://www.investopedia.com/terms/h/human-development-index-hdi.asp
     -https://ourworldindata.org/life-expectancy
+    -https://en.wikipedia.org/wiki/Education_Index
 
 
 
