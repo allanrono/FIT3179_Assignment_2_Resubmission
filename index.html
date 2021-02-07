@@ -12,48 +12,123 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
 </head>
-<body>
+<body class="bg-light">
     <header class="container">
-        <h1>HUMAN DEVELOPMENT ANALYSIS OF EUROPE </h1>
+        <h1 class="display-5" class="fw-bold">HUMAN DEVELOPMENT ANALYSIS OF EUROPE </h1>
     </header>
     <hr>
-    <main class="container-fluid">
-        <h1>Human Development Index - HDI</h1>
+    <main class="container">
+        <h3 >Human Development Index - HDI</h3>
         <p>The Human Development Index (HDI) is a statistic developed and compiled by the United Nations to measure and various
-        countries' levels of social and economic development. It is composed of four principal areas of interest: mean years of
+        countries' levels of social and economic development.<br> It is composed of four principal areas of interest: mean years of
         schooling expected years of schooling, life expectancy at birth, and gross national income per capita. This index is a
         tool used to follow changes in development levels over time and to compare the development levels of different
         countries.</p>
         <br>
-        <img src="./770px-HDI_explained_the_best_way.png"
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="./770px-HDI_explained_the_best_way.png" class="border border-secondary">
+                </div>
+            </div>
+        </div>
         <br>
-        <p>The health dimension is assessed by life expectancy at birth, the education dimension is measured by mean of years of
-        schooling for adults aged 25 years and more and expected years of schooling for children of school entering age. The
-        standard of living dimension is measured by gross national income per capita. The HDI uses the logarithm of income, to
-        reflect the diminishing importance of income with increasing GNI. The scores for the three HDI dimension indices are
-        then aggregated into a composite index using geometric mean. Refer to Technical notes for more details.</p>
+        <br>
+        <p>
+            <h5>Key Takeaways</h5>
+            <p>https://www.investopedia.com/terms/h/human-development-index-hdi.asp</p>
+            <ul>
+            <li>The HDI is a measurement system used by the United Nations to evaluate the level of individual human development in each
+            country.</li>
+            <li>The HDI uses components such as average annual income and educational expectations to rank and compare countries.</li>
+            <li>The HDI has been criticized by social advocates for not representing a broad enough measure of quality of life and by
+            economists for providing little additional useful information beyond simpler measures of the economic standard of living
+            </li>
+            </ul>
+        </p>
         <br>
         <br>
-        <h1 id="vis5"></h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h1 id="vis5" class="border border-secondary"></h1>
+                </div>
+                <div class="col-sm">
+                    <p>The HDI rankings of european countries have seen a fair share of fluctualition. Some countries have seen high increase 
+                        in HDI rankings while others have dropped dramatically. There's a significant pattern that could be noticed and that is 
+                        ,the countries with a decrease or low increase in the HDI ranking were situated in the western side of europe while the 
+                        eastern side of europe saw countries have their HDI increase during the 2010 to 2015 period.<br><br>
+                        what has eastern europe done during that time to improve their Human development index. Is this a trend that could continue
+                         in the next 5 years? Could we see a position where an eastern europen county surpasses the Big countries HDI like the  likes of UK or Germany ?  
+
+                    </p>
+                </div>
+            </div>
+        </div>
         <hr>
-        <p>The health dimension is assessed by life expectancy at birth, the education dimension is measured by mean of years of
-        schooling for adults aged 25 years and more and expected years of schooling for children of school entering age. The
-        standard of living dimension is measured by gross national income per capita. The HDI uses the logarithm of income, to
-        reflect the diminishing importance of income with increasing GNI. The scores for the three HDI dimension indices are
-        then aggregated into a composite index using geometric mean.</p>
-        <h3>Life Expectancy</h3>
-        <h3 id="vis1"></h3>
+        <div class="container">
+            <h3 class="badge bg-primary text-wrap" style="width: 6rem;">Life Expectancy</h3>
+            <br>
+            <div class="row">
+                <div class="col-sm">
+                    <p>Life expectancy is the key metric for assessing population health. Broader than the narrow metric of the infant and
+                    child mortality, which focus solely at mortality at a young age, life expectancy captures the mortality along the entire
+                    life course. It tells us the average age of death in a population.
+                    <br>
+                    Estimates suggest that in a pre-modern, poor world, life expectancy was around 30 years in all regions of the world.
+                    <br>
+                    <br>
+                    Life expectancy has increased rapidly since the Age of Enlightenment. In the early 19th century, life expectancy started
+                    to increase in the early industrialized countries while it stayed low in the rest of the world. This led to a very high
+                    inequality in how health was distributed across the world. Good health in the rich countries and persistently bad health
+                    in those countries that remained poor. 
+                    <br><br>Over the last decades this global inequality decreased. No country in the world
+                    has a lower life expectancy than the countries with the highest life expectancy in 1800. Many countries that not long
+                    ago were suffering from bad health are catching up rapidly.</p>
+            </div>
+            <div class="col-sm">
+                <h3 id="vis1" class="border border-secondary"></h3>
+            </div>
+            </div>
+        </div>        
         <hr>
-        <h3>GNI per Capita vs HDI rank</h3>
+        <div class="container">
+            <h3>GNI per Capita vs HDI rank</h3>
+            <br>
+
+            <div class="row">
+                <div class="col-sm">
+                    <h3 id="vis2" class="border border-secondary"></h3>
+                </div>
+                <div class="col-sm">
+                    <p>Compared to GDP, the HDI has a greater emphasis on human development. It takes the quality of life into account, not
+                    just production capacity of a country. Education and health are considered as important to a country as economic power.
+                    GDP is considered a means to human development, but not an end.<br><br> GNI per capita, which is essentially the average
+                    person’s purchasing power, is an important factor in calculating Human Development Index, but just one of several. The
+                    Human Development Index paints a more holistic picture of a country than GDP. For example, countries with the same GDPs
+                    can have vastly different HDIs. </p>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm">
-                    <h3 id="vis2"></h3>
+                    <p>If two countries have similar GDPs but their HDIs are out of sync, it can help policy
+                        makers identify the fundamental issues in their countries that need to be addressed, such as education or
+                        health.
+                        Finally, it more accurately depicts changes in living standard over time.<br> As a drastic example, if from one year
+                        to the
+                        next every employee in a country’s tobacco and weapons industry suddenly became academics or joined the health
+                        industry
+                        to treat people, find cures, develop vaccinations, etc. <br><br>As seen from the chart on the right and on top, the countries
+                         with the GNI per capita compared to the GNI per capita minus HDI ranking were mainly from eastern european countries.
+                         This shows that theres still more progress to be made to be able to catch up to the rest of the european countries
+                        
+                        </p>
                 </div>
                 <div class="col-sm">
-                    <h3 id="vis3"></h3>
+                    <h3 id="vis3" class="border border-secondary"></h3>
                 </div>
             </div>
         </div>
@@ -62,7 +137,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <h3 id="vis4"></h3>
+                    <h3 id="vis4" class="border border-secondary"></h3>
                 </div>
             </div>
         </div>
@@ -71,8 +146,21 @@
 
     </main>
     <hr>
-    <footer class="container">
-        <p>Author:Allan Rono</p>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <p>Author:Allan Rono</p>
+            </div>
+            <div class="col-sm">
+                <p>Dataset author: https://www.kaggle.com/sudhirnl7/human-development-index-hdi</p>
+            </div>
+            <div class="col-sm">
+                <p>Author Kaggle: Sudhir Kumar</p>
+            </div>
+            <div class="col-sm">
+                <p>Licence: No copyrights</p>
+            </div>
+        </div>
     </footer>
 
     <script type="text/javascript">
